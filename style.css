@@ -1,0 +1,94 @@
+body{
+ width: 80%;
+ margin: auto;
+ font-size: 18px;
+ color: white;
+ background-color: grey;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image{
+    width: 45%;
+}
+.bloc{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 100px;
+}
+
+.ingredients{
+    margin-left: 100px;
+}
+
+
+h2{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-decoration: underline;
+}
+
+h3{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-decoration: underline;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-collapse: collapse;
+    margin-top: 80px;
+    
+}
+
+th,td{
+    
+    height:50px;
+    width: 400px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.contact{
+    
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+}
+
+input{
+    width: 70%;
+    height: 30px;
+}
+
+textarea{
+width: 70%;
+height: 90px;
+}
+
+input[type=submit]{
+    width: 35%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    float: right;
+    margin-right: 29.5%; 
+    cursor: pointer;  /*Afficher comment la souris ce comporte avec le pointeur*/
+}
+
+.source{
+    margin-top: 10%;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
